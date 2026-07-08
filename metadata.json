@@ -1,0 +1,6 @@
+{
+  "name": "PlumbFlow HVAC & Plumbing",
+  "description": "High-converting, trust-first contractor website for PlumbFlow HVAC & Plumbing featuring an interactive price calculator, live booking system, and AI-powered service assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

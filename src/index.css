@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --color-primary: #1E40AF;
+  --color-secondary: #3B82F6;
+  --color-accent: #EA580C;
+  --color-brand-bg: #EFF6FF;
+  --color-dark-blue: #1E3A8A;
+  --color-muted-blue: #E9EEF6;
+  --color-emergency: #DC2626;
+  --color-success: #059669;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #334155;
+    background-color: #FAFCFF;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+  }
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
